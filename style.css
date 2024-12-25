@@ -1,0 +1,45 @@
+@keyframes Amirshoh{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(234, 154, 154);
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        top: 200px;
+        left: 0px;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        left: 0px;
+        top: 0px;
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: Amirshoh;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
